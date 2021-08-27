@@ -5,6 +5,8 @@ const taxiFareApiUrl = 'https://taxifare.lewagon.ai/predict';
 
 
 
+
+
 const displayMap = (start, stop) => {
   mapboxgl.accessToken = mapboxApiToken;
   const map = new mapboxgl.Map({
